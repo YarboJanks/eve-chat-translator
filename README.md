@@ -1,58 +1,105 @@
 # EVE Chat Translator
 
-Live OCR + translation overlay for EVE Online chat, English ⇄ Chinese (or any other chat on your screen).
-Drag a box around a chat window. New lines are read every second and shown translated in an
-always-on-top panel. Type in the panel's bottom box to translate your own reply; the result is copied
-to your clipboard for you to paste.
+**English** | [简体中文](README.zh-CN.md)
 
-## Setup (Windows, Python 3.11+)
+Live translation overlay for EVE Online chat, **English ⇄ Chinese**. Drag a box around a chat window
+and new lines are read off the screen and shown translated in a small always-on-top panel. You can also
+type a reply in your own language; the translation is copied to your clipboard, ready to paste.
 
-```bat
-python -m venv .venv
-.venv\Scripts\pip install -r requirements.txt
-```
+![Chat Translator in use: Chinese chat on the left, English translations in the panel on the right](docs/images/overview_en.png)
 
-Then double-click `Chat Translator.bat` (or run `.venv\Scripts\python run.pyw`).
-The OCR models are bundled with RapidOCR, so no extra downloads are needed.
+## Features
 
-## Language / 语言
+- **Reads chat from the screen** using built-in offline OCR (RapidOCR). Nothing is installed into the game.
+- **Both directions**: English speakers read Chinese chat in English, and Chinese speakers read English chat in Chinese.
+- **Reply box**: type a message, press Enter, and paste the translation into EVE chat.
+- **Knows EVE slang**: a community glossary (fleet commands, intel, mining terms) plus the official Chinese names of every ship.
+- **Three translators**: Google (free), Baidu (works in mainland China) and Claude (best with slang).
+- **English or Chinese interface**, switchable at any time.
 
-| Setting | Menus | Chat lines translated | Reply box |
-|---|---|---|---|
-| English | English | Chinese → English | English → Chinese |
-| 中文 | 中文 | English → Chinese | Chinese → English |
+## Installation (Windows)
 
-Lines are classified by which script dominates, so an English message from a pilot with a Chinese name
-counts as English, and a Chinese message mentioning a Muninn counts as Chinese.
+1. Install [Python 3.11 or newer](https://www.python.org/downloads/). Tick **"Add python.exe to PATH"** during setup.
+2. Download this project (**Code → Download ZIP**, then unzip it) or `git clone` it.
+3. In the project folder, open a terminal and run:
+   ```bat
+   python -m venv .venv
+   .venv\Scripts\pip install -r requirements.txt
+   ```
+4. Double-click **`Chat Translator.bat`** to start.
 
-## Translators
+The first start takes a few seconds while the OCR models load and the slang glossary downloads.
 
-- **Google Translate**: free, no setup (default). Not reachable from mainland China.
-- **Baidu Translate (百度翻译)**: works in mainland China. Needs a free APP ID + secret key from
-  https://fanyi-api.baidu.com (sign up, enable 通用文本翻译).
-- **Claude** (`claude-opus-5-5`): best with slang and context. Needs an Anthropic API key (in the UI or `ANTHROPIC_API_KEY`).
+## How to use
 
-## EVE glossary (`data/`), used in both directions
+### 1. Choose your language and translator
 
-Highest priority first:
-- `glossary_custom.csv`: your own `chinese,english` additions
-- The community EVE slang [Google Sheet](https://docs.google.com/spreadsheets/d/1r3wM2W1tbchWn59fAIhMrvfN0uOAAKcSMZbAga_xQik):
-  downloaded on first run; **Update glossary** refreshes it
-- `ships.json`: official Chinese ship names from ESI (e.g. 矮脚鸡级 = Bantam)
+![Settings window](docs/images/settings_en.png)
 
-Google/Baidu: known terms are swapped into the target language before translating. Claude: matching
-terms are passed as hints, plus the X/[range] command templates.
+- **Language / 语言**: the language *you* read. In **English**, Chinese chat is translated to English.
+  In **中文**, English chat is translated to Chinese and the whole interface switches to Chinese.
+- **Translator**:
+  | Translator | Setup | Notes |
+  |---|---|---|
+  | Google Translate | none | Free default. Blocked in mainland China. |
+  | Baidu Translate | free APP ID + key from [fanyi-api.baidu.com](https://fanyi-api.baidu.com) | Works in mainland China. |
+  | Claude | Anthropic API key | Best with slang and context. Paid per use. |
 
-## What it does and doesn't do
+### 2. Select the chat
 
-- It **only reads screen pixels** inside the box you draw, like a screenshot.
+Click **Select region…** and drag a box around the chat text, as in step ① above. A dashed outline marks
+the watched area. Click **Pause** / **Start** any time, or **Select region…** again to move it.
+
+### 3. Read the translations
+
+New messages appear in the translation panel ②, translation first with the original in grey underneath.
+Drag the panel by its top bar and resize it from the bottom-right corner. It can safely sit on top of
+the chat, because the app never reads its own panel.
+
+### 4. Reply
+
+Type in the box at the bottom of the panel ③ and press **Enter**. The translation appears in blue and
+is **copied to your clipboard**. Click into EVE's chat and press **Ctrl+V** to send it.
+
+## Tips
+
+- **EVE must run in windowed or borderless (fixed window) mode**; overlays can't appear over fullscreen.
+- Small chat font misread? Set **OCR upscale** to 1.5× or 2×, or increase EVE's chat font size.
+- Messages that wrap onto two lines are translated as two separate lines.
+- **Update glossary** downloads the latest version of the community slang sheet.
+- Add your own terms to `data/glossary_custom.csv` (`chinese,english` per line); they take priority.
+
+## The EVE glossary
+
+Translations use an EVE-specific glossary in both directions, so fleet calls come through correctly
+(挑我 = warp to me, 大鱼 = Rorqual, 泡泡 = interdiction bubble):
+
+1. `data/glossary_custom.csv`: your own terms (highest priority)
+2. The community [EVE slang sheet](https://docs.google.com/spreadsheets/d/1r3wM2W1tbchWn59fAIhMrvfN0uOAAKcSMZbAga_xQik),
+   downloaded on first start
+3. `data/ships.json`: official Chinese ship names from CCP's ESI (e.g. 矮脚鸡级 = Bantam)
+
+## Safety and privacy
+
+- The app **only reads screen pixels** inside the box you draw, like taking a screenshot.
 - It **never touches the EVE client**: no process access, no memory reading, no client modification.
-- It **never sends input to the game**. Replies go to your clipboard and you paste and send them yourself.
-- The text it reads is sent to the translator you choose (Google, Baidu or Anthropic). Point the box at
-  public channels, not private corp/alliance chat, if that matters to you.
-- The panel and region outline are hidden from screen capture, so they can overlap the chat safely.
-- The game must run in **windowed / borderless** mode for the overlay to appear above it.
-- Settings are stored in `%APPDATA%\ChatTranslator\config.json` (API keys are stored there in plain text).
+- It **never sends input to the game**. You paste and send every message yourself.
+- The text it reads is sent to the translator you choose (Google, Baidu or Anthropic). Point it at
+  public channels such as Local or public intel, not private corp/alliance chat.
+- Settings, including API keys, are stored in plain text in `%APPDATA%\ChatTranslator\config.json`.
+
+## For developers
+
+```
+chat_translator/
+  app.py         UI: settings window, region selector, translation panel
+  worker.py      background thread: change detection, OCR, de-duplication, translation
+  ocr.py         RapidOCR wrapper, groups text boxes into chat lines
+  translate.py   Google / Baidu / Claude backends, both directions
+  glossary.py    EVE glossary loading and term substitution
+  i18n.py        interface strings (English / 中文)
+docs/make_screenshots.py   regenerates the images in this README
+```
 
 ## Legal
 
@@ -66,4 +113,4 @@ information purposes on its website but does not endorse, and is not in any way 
 project. CCP is in no way responsible for the content on or functioning of this project, nor can it be
 liable for any damage arising from the use of this project.
 
-Licensed under the MIT License (see `LICENSE`).
+Licensed under the [MIT License](LICENSE).
