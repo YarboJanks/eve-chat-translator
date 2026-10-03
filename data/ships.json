@@ -1,0 +1,2540 @@
+[
+{
+"id": 582,
+"en": "Bantam",
+"zh": "矮脚鸡级",
+"group_en": "Frigate"
+},
+{
+"id": 583,
+"en": "Condor",
+"zh": "秃鹫级",
+"group_en": "Frigate"
+},
+{
+"id": 584,
+"en": "Griffin",
+"zh": "狮鹫级",
+"group_en": "Frigate"
+},
+{
+"id": 585,
+"en": "Slasher",
+"zh": "伐木者级",
+"group_en": "Frigate"
+},
+{
+"id": 586,
+"en": "Probe",
+"zh": "探索级",
+"group_en": "Frigate"
+},
+{
+"id": 587,
+"en": "Rifter",
+"zh": "裂谷级",
+"group_en": "Frigate"
+},
+{
+"id": 588,
+"en": "Reaper",
+"zh": "死神号",
+"group_en": "Corvette"
+},
+{
+"id": 589,
+"en": "Executioner",
+"zh": "刽子手级",
+"group_en": "Frigate"
+},
+{
+"id": 590,
+"en": "Inquisitor",
+"zh": "检察官级",
+"group_en": "Frigate"
+},
+{
+"id": 591,
+"en": "Tormentor",
+"zh": "巨神兵级",
+"group_en": "Frigate"
+},
+{
+"id": 592,
+"en": "Navitas",
+"zh": "纳维达斯级",
+"group_en": "Frigate"
+},
+{
+"id": 593,
+"en": "Tristan",
+"zh": "特里斯坦级",
+"group_en": "Frigate"
+},
+{
+"id": 594,
+"en": "Incursus",
+"zh": "因卡萨斯级",
+"group_en": "Frigate"
+},
+{
+"id": 596,
+"en": "Impairor",
+"zh": "帝国号",
+"group_en": "Corvette"
+},
+{
+"id": 597,
+"en": "Punisher",
+"zh": "惩罚者级",
+"group_en": "Frigate"
+},
+{
+"id": 598,
+"en": "Breacher",
+"zh": "分裂者级",
+"group_en": "Frigate"
+},
+{
+"id": 599,
+"en": "Burst",
+"zh": "爆发级",
+"group_en": "Frigate"
+},
+{
+"id": 601,
+"en": "Ibis",
+"zh": "伊毕斯号",
+"group_en": "Corvette"
+},
+{
+"id": 602,
+"en": "Kestrel",
+"zh": "茶隼级",
+"group_en": "Frigate"
+},
+{
+"id": 603,
+"en": "Merlin",
+"zh": "小鹰级",
+"group_en": "Frigate"
+},
+{
+"id": 605,
+"en": "Heron",
+"zh": "苍鹭级",
+"group_en": "Frigate"
+},
+{
+"id": 606,
+"en": "Velator",
+"zh": "维拉托尔号",
+"group_en": "Corvette"
+},
+{
+"id": 607,
+"en": "Imicus",
+"zh": "伊米卡斯级",
+"group_en": "Frigate"
+},
+{
+"id": 608,
+"en": "Atron",
+"zh": "阿特龙级",
+"group_en": "Frigate"
+},
+{
+"id": 609,
+"en": "Maulus",
+"zh": "毛鲁斯级",
+"group_en": "Frigate"
+},
+{
+"id": 615,
+"en": "Immolator",
+"zh": "献祭者级",
+"group_en": "Corvette"
+},
+{
+"id": 617,
+"en": "Echo",
+"zh": "回声级",
+"group_en": "Corvette"
+},
+{
+"id": 620,
+"en": "Osprey",
+"zh": "鱼鹰级",
+"group_en": "Cruiser"
+},
+{
+"id": 621,
+"en": "Caracal",
+"zh": "狞獾级",
+"group_en": "Cruiser"
+},
+{
+"id": 622,
+"en": "Stabber",
+"zh": "刺客级",
+"group_en": "Cruiser"
+},
+{
+"id": 623,
+"en": "Moa",
+"zh": "巨鸟级",
+"group_en": "Cruiser"
+},
+{
+"id": 624,
+"en": "Maller",
+"zh": "暴君级",
+"group_en": "Cruiser"
+},
+{
+"id": 625,
+"en": "Augoror",
+"zh": "奥格诺级",
+"group_en": "Cruiser"
+},
+{
+"id": 626,
+"en": "Vexor",
+"zh": "狂怒者级",
+"group_en": "Cruiser"
+},
+{
+"id": 627,
+"en": "Thorax",
+"zh": "托勒克斯级",
+"group_en": "Cruiser"
+},
+{
+"id": 628,
+"en": "Arbitrator",
+"zh": "主宰级",
+"group_en": "Cruiser"
+},
+{
+"id": 629,
+"en": "Rupture",
+"zh": "断崖级",
+"group_en": "Cruiser"
+},
+{
+"id": 630,
+"en": "Bellicose",
+"zh": "挑战级",
+"group_en": "Cruiser"
+},
+{
+"id": 631,
+"en": "Scythe",
+"zh": "镰刀级",
+"group_en": "Cruiser"
+},
+{
+"id": 632,
+"en": "Blackbird",
+"zh": "黑鸟级",
+"group_en": "Cruiser"
+},
+{
+"id": 633,
+"en": "Celestis",
+"zh": "星空级",
+"group_en": "Cruiser"
+},
+{
+"id": 634,
+"en": "Exequror",
+"zh": "送葬者级",
+"group_en": "Cruiser"
+},
+{
+"id": 635,
+"en": "Opux Luxury Yacht",
+"zh": "奥普克斯级豪华游轮",
+"group_en": "Special Edition Yachts"
+},
+{
+"id": 638,
+"en": "Raven",
+"zh": "乌鸦级",
+"group_en": "Battleship"
+},
+{
+"id": 639,
+"en": "Tempest",
+"zh": "狂暴级",
+"group_en": "Battleship"
+},
+{
+"id": 640,
+"en": "Scorpion",
+"zh": "毒蝎级",
+"group_en": "Battleship"
+},
+{
+"id": 641,
+"en": "Megathron",
+"zh": "万王宝座级",
+"group_en": "Battleship"
+},
+{
+"id": 642,
+"en": "Apocalypse",
+"zh": "灾难级",
+"group_en": "Battleship"
+},
+{
+"id": 643,
+"en": "Armageddon",
+"zh": "末日沙场级",
+"group_en": "Battleship"
+},
+{
+"id": 644,
+"en": "Typhoon",
+"zh": "台风级",
+"group_en": "Battleship"
+},
+{
+"id": 645,
+"en": "Dominix",
+"zh": "多米尼克斯级",
+"group_en": "Battleship"
+},
+{
+"id": 648,
+"en": "Badger",
+"zh": "獾级",
+"group_en": "Hauler"
+},
+{
+"id": 649,
+"en": "Tayra",
+"zh": "狐鼬级",
+"group_en": "Hauler"
+},
+{
+"id": 650,
+"en": "Nereus",
+"zh": "涅鲁斯级",
+"group_en": "Hauler"
+},
+{
+"id": 651,
+"en": "Hoarder",
+"zh": "囤积者级",
+"group_en": "Hauler"
+},
+{
+"id": 652,
+"en": "Mammoth",
+"zh": "猛犸级",
+"group_en": "Hauler"
+},
+{
+"id": 653,
+"en": "Wreathe",
+"zh": "环绕级",
+"group_en": "Hauler"
+},
+{
+"id": 654,
+"en": "Kryos",
+"zh": "克琉斯级",
+"group_en": "Hauler"
+},
+{
+"id": 655,
+"en": "Epithal",
+"zh": "埃比斯级",
+"group_en": "Hauler"
+},
+{
+"id": 656,
+"en": "Miasmos",
+"zh": "米亚莫斯级",
+"group_en": "Hauler"
+},
+{
+"id": 657,
+"en": "Iteron Mark V",
+"zh": "伊特龙级MKV",
+"group_en": "Hauler"
+},
+{
+"id": 670,
+"en": "Capsule",
+"zh": "太空舱",
+"group_en": "Capsule"
+},
+{
+"id": 671,
+"en": "Erebus",
+"zh": "俄洛巴斯级",
+"group_en": "Titan"
+},
+{
+"id": 672,
+"en": "Caldari Shuttle",
+"zh": "加达里穿梭机",
+"group_en": "Shuttle"
+},
+{
+"id": 1944,
+"en": "Bestower",
+"zh": "恩赐者级",
+"group_en": "Hauler"
+},
+{
+"id": 2006,
+"en": "Omen",
+"zh": "启示级",
+"group_en": "Cruiser"
+},
+{
+"id": 2078,
+"en": "Zephyr",
+"zh": "微风级",
+"group_en": "Prototype Exploration Ship"
+},
+{
+"id": 2161,
+"en": "Crucifier",
+"zh": "磨难级",
+"group_en": "Frigate"
+},
+{
+"id": 2834,
+"en": "Utu",
+"zh": "乌图级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 2836,
+"en": "Adrestia",
+"zh": "复仇女神级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 2863,
+"en": "Primae",
+"zh": "元始级",
+"group_en": "Hauler"
+},
+{
+"id": 2998,
+"en": "Noctis",
+"zh": "黑夜级",
+"group_en": "Hauler"
+},
+{
+"id": 3514,
+"en": "Revenant",
+"zh": "归魂者级",
+"group_en": "Supercarrier"
+},
+{
+"id": 3516,
+"en": "Malice",
+"zh": "恶意级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 3518,
+"en": "Vangel",
+"zh": "传道者级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 3532,
+"en": "Echelon",
+"zh": "梯队级",
+"group_en": "Frigate"
+},
+{
+"id": 3756,
+"en": "Gnosis",
+"zh": "灵感级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 3764,
+"en": "Leviathan",
+"zh": "勒维亚坦级",
+"group_en": "Titan"
+},
+{
+"id": 3766,
+"en": "Vigil",
+"zh": "守夜者级",
+"group_en": "Frigate"
+},
+{
+"id": 4302,
+"en": "Oracle",
+"zh": "预言级",
+"group_en": "Attack Battlecruiser"
+},
+{
+"id": 4306,
+"en": "Naga",
+"zh": "娜迦级",
+"group_en": "Attack Battlecruiser"
+},
+{
+"id": 4308,
+"en": "Talos",
+"zh": "塔洛斯级",
+"group_en": "Attack Battlecruiser"
+},
+{
+"id": 4310,
+"en": "Tornado",
+"zh": "龙卷风级",
+"group_en": "Attack Battlecruiser"
+},
+{
+"id": 4363,
+"en": "Miasmos Quafe Ultra Edition",
+"zh": "米亚莫斯级酷菲特强版",
+"group_en": "Hauler"
+},
+{
+"id": 4388,
+"en": "Miasmos Quafe Ultramarine Edition",
+"zh": "米亚莫斯级酷菲深蓝版",
+"group_en": "Hauler"
+},
+{
+"id": 11011,
+"en": "Guardian-Vexor",
+"zh": "狂怒守卫者级",
+"group_en": "Cruiser"
+},
+{
+"id": 11129,
+"en": "Gallente Shuttle",
+"zh": "盖伦特穿梭机",
+"group_en": "Shuttle"
+},
+{
+"id": 11132,
+"en": "Minmatar Shuttle",
+"zh": "米玛塔尔穿梭机",
+"group_en": "Shuttle"
+},
+{
+"id": 11134,
+"en": "Amarr Shuttle",
+"zh": "艾玛穿梭机",
+"group_en": "Shuttle"
+},
+{
+"id": 11172,
+"en": "Helios",
+"zh": "太阳神级",
+"group_en": "Covert Ops"
+},
+{
+"id": 11174,
+"en": "Keres",
+"zh": "克勒斯级",
+"group_en": "Electronic Attack Ship"
+},
+{
+"id": 11176,
+"en": "Crow",
+"zh": "黑鸦级",
+"group_en": "Interceptor"
+},
+{
+"id": 11178,
+"en": "Raptor",
+"zh": "猛禽级",
+"group_en": "Interceptor"
+},
+{
+"id": 11182,
+"en": "Cheetah",
+"zh": "猎豹级",
+"group_en": "Covert Ops"
+},
+{
+"id": 11184,
+"en": "Crusader",
+"zh": "十字军级",
+"group_en": "Interceptor"
+},
+{
+"id": 11186,
+"en": "Malediction",
+"zh": "咒灭级",
+"group_en": "Interceptor"
+},
+{
+"id": 11188,
+"en": "Anathema",
+"zh": "咒逐级",
+"group_en": "Covert Ops"
+},
+{
+"id": 11190,
+"en": "Sentinel",
+"zh": "哨兵级",
+"group_en": "Electronic Attack Ship"
+},
+{
+"id": 11192,
+"en": "Buzzard",
+"zh": "秃鹰级",
+"group_en": "Covert Ops"
+},
+{
+"id": 11194,
+"en": "Kitsune",
+"zh": "狐妖级",
+"group_en": "Electronic Attack Ship"
+},
+{
+"id": 11196,
+"en": "Claw",
+"zh": "利爪级",
+"group_en": "Interceptor"
+},
+{
+"id": 11198,
+"en": "Stiletto",
+"zh": "短剑级",
+"group_en": "Interceptor"
+},
+{
+"id": 11200,
+"en": "Taranis",
+"zh": "塔纳尼斯级",
+"group_en": "Interceptor"
+},
+{
+"id": 11202,
+"en": "Ares",
+"zh": "阿瑞斯级",
+"group_en": "Interceptor"
+},
+{
+"id": 11365,
+"en": "Vengeance",
+"zh": "复仇级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 11371,
+"en": "Wolf",
+"zh": "猎狼级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 11377,
+"en": "Nemesis",
+"zh": "纳美西斯级",
+"group_en": "Stealth Bomber"
+},
+{
+"id": 11379,
+"en": "Hawk",
+"zh": "战鹰级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 11381,
+"en": "Harpy",
+"zh": "女妖级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 11387,
+"en": "Hyena",
+"zh": "土狼级",
+"group_en": "Electronic Attack Ship"
+},
+{
+"id": 11393,
+"en": "Retribution",
+"zh": "审判者级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 11400,
+"en": "Jaguar",
+"zh": "美洲虎级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 11567,
+"en": "Avatar",
+"zh": "神使级",
+"group_en": "Titan"
+},
+{
+"id": 11936,
+"en": "Apocalypse Imperial Issue",
+"zh": "灾难级帝国型",
+"group_en": "Battleship"
+},
+{
+"id": 11938,
+"en": "Armageddon Imperial Issue",
+"zh": "末日沙场级帝国型",
+"group_en": "Battleship"
+},
+{
+"id": 11940,
+"en": "Gold Magnate",
+"zh": "黄金富豪级",
+"group_en": "Frigate"
+},
+{
+"id": 11942,
+"en": "Silver Magnate",
+"zh": "白银富豪级",
+"group_en": "Frigate"
+},
+{
+"id": 11957,
+"en": "Falcon",
+"zh": "战隼级",
+"group_en": "Force Recon Ship"
+},
+{
+"id": 11959,
+"en": "Rook",
+"zh": "白嘴鸦级",
+"group_en": "Combat Recon Ship"
+},
+{
+"id": 11961,
+"en": "Huginn",
+"zh": "休津级",
+"group_en": "Combat Recon Ship"
+},
+{
+"id": 11963,
+"en": "Rapier",
+"zh": "长剑级",
+"group_en": "Force Recon Ship"
+},
+{
+"id": 11965,
+"en": "Pilgrim",
+"zh": "朝圣级",
+"group_en": "Force Recon Ship"
+},
+{
+"id": 11969,
+"en": "Arazu",
+"zh": "埃拉兹级",
+"group_en": "Force Recon Ship"
+},
+{
+"id": 11971,
+"en": "Lachesis",
+"zh": "拉克希斯级",
+"group_en": "Combat Recon Ship"
+},
+{
+"id": 11978,
+"en": "Scimitar",
+"zh": "曲剑级",
+"group_en": "Logistics"
+},
+{
+"id": 11985,
+"en": "Basilisk",
+"zh": "皇冠蜥级",
+"group_en": "Logistics"
+},
+{
+"id": 11987,
+"en": "Guardian",
+"zh": "守卫级",
+"group_en": "Logistics"
+},
+{
+"id": 11989,
+"en": "Oneiros",
+"zh": "奥内罗斯级",
+"group_en": "Logistics"
+},
+{
+"id": 11993,
+"en": "Cerberus",
+"zh": "希尔博拉斯级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 11995,
+"en": "Onyx",
+"zh": "奥尼克斯级",
+"group_en": "Heavy Interdiction Cruiser"
+},
+{
+"id": 11999,
+"en": "Vagabond",
+"zh": "流浪级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 12003,
+"en": "Zealot",
+"zh": "狂热级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 12005,
+"en": "Ishtar",
+"zh": "伊什塔级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 12011,
+"en": "Eagle",
+"zh": "银鹰级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 12013,
+"en": "Broadsword",
+"zh": "阔刀级",
+"group_en": "Heavy Interdiction Cruiser"
+},
+{
+"id": 12015,
+"en": "Muninn",
+"zh": "缪宁级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 12017,
+"en": "Devoter",
+"zh": "奉献级",
+"group_en": "Heavy Interdiction Cruiser"
+},
+{
+"id": 12019,
+"en": "Sacrilege",
+"zh": "渎圣级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 12021,
+"en": "Phobos",
+"zh": "伏波斯级",
+"group_en": "Heavy Interdiction Cruiser"
+},
+{
+"id": 12023,
+"en": "Deimos",
+"zh": "戴默斯级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 12032,
+"en": "Manticore",
+"zh": "蝎尾怪级",
+"group_en": "Stealth Bomber"
+},
+{
+"id": 12034,
+"en": "Hound",
+"zh": "猎犬级",
+"group_en": "Stealth Bomber"
+},
+{
+"id": 12038,
+"en": "Purifier",
+"zh": "净化级",
+"group_en": "Stealth Bomber"
+},
+{
+"id": 12042,
+"en": "Ishkur",
+"zh": "伊什库尔级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 12044,
+"en": "Enyo",
+"zh": "恩尤级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 12729,
+"en": "Crane",
+"zh": "天鹤级",
+"group_en": "Blockade Runner"
+},
+{
+"id": 12731,
+"en": "Bustard",
+"zh": "大鸨级",
+"group_en": "Deep Space Transport"
+},
+{
+"id": 12733,
+"en": "Prorator",
+"zh": "分裂级",
+"group_en": "Blockade Runner"
+},
+{
+"id": 12735,
+"en": "Prowler",
+"zh": "徘徊者级",
+"group_en": "Blockade Runner"
+},
+{
+"id": 12743,
+"en": "Viator",
+"zh": "旅行者级",
+"group_en": "Blockade Runner"
+},
+{
+"id": 12745,
+"en": "Occator",
+"zh": "奥卡托级",
+"group_en": "Deep Space Transport"
+},
+{
+"id": 12747,
+"en": "Mastodon",
+"zh": "巨象级",
+"group_en": "Deep Space Transport"
+},
+{
+"id": 12753,
+"en": "Impel",
+"zh": "激进级",
+"group_en": "Deep Space Transport"
+},
+{
+"id": 13202,
+"en": "Megathron Federate Issue",
+"zh": "万王宝座级联邦型",
+"group_en": "Battleship"
+},
+{
+"id": 16227,
+"en": "Ferox",
+"zh": "猛鲑级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 16229,
+"en": "Brutix",
+"zh": "布鲁提克斯级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 16231,
+"en": "Cyclone",
+"zh": "飓风级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 16233,
+"en": "Prophecy",
+"zh": "先知级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 16236,
+"en": "Coercer",
+"zh": "强制者级",
+"group_en": "Destroyer"
+},
+{
+"id": 16238,
+"en": "Cormorant",
+"zh": "海燕级",
+"group_en": "Destroyer"
+},
+{
+"id": 16240,
+"en": "Catalyst",
+"zh": "促进级",
+"group_en": "Destroyer"
+},
+{
+"id": 16242,
+"en": "Thrasher",
+"zh": "长尾鲛级",
+"group_en": "Destroyer"
+},
+{
+"id": 17476,
+"en": "Covetor",
+"zh": "妄想级",
+"group_en": "Mining Barge"
+},
+{
+"id": 17478,
+"en": "Retriever",
+"zh": "回旋者级",
+"group_en": "Mining Barge"
+},
+{
+"id": 17480,
+"en": "Procurer",
+"zh": "猎获级",
+"group_en": "Mining Barge"
+},
+{
+"id": 17619,
+"en": "Caldari Navy Hookbill",
+"zh": "加达里海军霍克比尔级",
+"group_en": "Frigate"
+},
+{
+"id": 17634,
+"en": "Caracal Navy Issue",
+"zh": "狞獾级海军型",
+"group_en": "Cruiser"
+},
+{
+"id": 17636,
+"en": "Raven Navy Issue",
+"zh": "乌鸦级海军型",
+"group_en": "Battleship"
+},
+{
+"id": 17703,
+"en": "Imperial Navy Slicer",
+"zh": "帝国海军切割机级",
+"group_en": "Frigate"
+},
+{
+"id": 17709,
+"en": "Omen Navy Issue",
+"zh": "启示级海军型",
+"group_en": "Cruiser"
+},
+{
+"id": 17713,
+"en": "Stabber Fleet Issue",
+"zh": "刺客级舰队型",
+"group_en": "Cruiser"
+},
+{
+"id": 17715,
+"en": "Gila",
+"zh": "毒蜥级",
+"group_en": "Cruiser"
+},
+{
+"id": 17718,
+"en": "Phantasm",
+"zh": "幽灵级",
+"group_en": "Cruiser"
+},
+{
+"id": 17720,
+"en": "Cynabal",
+"zh": "塞纳波级",
+"group_en": "Cruiser"
+},
+{
+"id": 17722,
+"en": "Vigilant",
+"zh": "警惕级",
+"group_en": "Cruiser"
+},
+{
+"id": 17726,
+"en": "Apocalypse Navy Issue",
+"zh": "灾难级海军型",
+"group_en": "Battleship"
+},
+{
+"id": 17728,
+"en": "Megathron Navy Issue",
+"zh": "万王宝座级海军型",
+"group_en": "Battleship"
+},
+{
+"id": 17732,
+"en": "Tempest Fleet Issue",
+"zh": "狂暴级舰队型",
+"group_en": "Battleship"
+},
+{
+"id": 17736,
+"en": "Nightmare",
+"zh": "噩梦级",
+"group_en": "Battleship"
+},
+{
+"id": 17738,
+"en": "Machariel",
+"zh": "马克瑞级",
+"group_en": "Battleship"
+},
+{
+"id": 17740,
+"en": "Vindicator",
+"zh": "复仇者级",
+"group_en": "Battleship"
+},
+{
+"id": 17812,
+"en": "Republic Fleet Firetail",
+"zh": "共和舰队火尾鸡级",
+"group_en": "Frigate"
+},
+{
+"id": 17841,
+"en": "Federation Navy Comet",
+"zh": "联邦海军彗星级",
+"group_en": "Frigate"
+},
+{
+"id": 17843,
+"en": "Vexor Navy Issue",
+"zh": "狂怒者级海军型",
+"group_en": "Cruiser"
+},
+{
+"id": 17918,
+"en": "Rattlesnake",
+"zh": "响尾蛇级",
+"group_en": "Battleship"
+},
+{
+"id": 17920,
+"en": "Bhaalgorn",
+"zh": "巴戈龙级",
+"group_en": "Battleship"
+},
+{
+"id": 17922,
+"en": "Ashimmu",
+"zh": "阿什姆级",
+"group_en": "Cruiser"
+},
+{
+"id": 17924,
+"en": "Succubus",
+"zh": "魔女级",
+"group_en": "Frigate"
+},
+{
+"id": 17926,
+"en": "Cruor",
+"zh": "凝血级",
+"group_en": "Frigate"
+},
+{
+"id": 17928,
+"en": "Daredevil",
+"zh": "夜魔侠级",
+"group_en": "Frigate"
+},
+{
+"id": 17930,
+"en": "Worm",
+"zh": "潜龙级",
+"group_en": "Frigate"
+},
+{
+"id": 17932,
+"en": "Dramiel",
+"zh": "德拉米尔级",
+"group_en": "Frigate"
+},
+{
+"id": 19720,
+"en": "Revelation",
+"zh": "神示级",
+"group_en": "Dreadnought"
+},
+{
+"id": 19722,
+"en": "Naglfar",
+"zh": "纳迦法级",
+"group_en": "Dreadnought"
+},
+{
+"id": 19724,
+"en": "Moros",
+"zh": "莫洛级",
+"group_en": "Dreadnought"
+},
+{
+"id": 19726,
+"en": "Phoenix",
+"zh": "凤凰级",
+"group_en": "Dreadnought"
+},
+{
+"id": 19744,
+"en": "Sigil",
+"zh": "魔符级",
+"group_en": "Hauler"
+},
+{
+"id": 20125,
+"en": "Curse",
+"zh": "诅咒级",
+"group_en": "Combat Recon Ship"
+},
+{
+"id": 20183,
+"en": "Providence",
+"zh": "普罗维登斯级",
+"group_en": "Freighter"
+},
+{
+"id": 20185,
+"en": "Charon",
+"zh": "渡神级",
+"group_en": "Freighter"
+},
+{
+"id": 20187,
+"en": "Obelisk",
+"zh": "方尖塔级",
+"group_en": "Freighter"
+},
+{
+"id": 20189,
+"en": "Fenrir",
+"zh": "芬利厄级",
+"group_en": "Freighter"
+},
+{
+"id": 21097,
+"en": "Goru's Shuttle",
+"zh": "高鲁的穿梭机",
+"group_en": "Shuttle"
+},
+{
+"id": 21628,
+"en": "Guristas Shuttle",
+"zh": "古斯塔斯穿梭机",
+"group_en": "Shuttle"
+},
+{
+"id": 22428,
+"en": "Redeemer",
+"zh": "救世级",
+"group_en": "Black Ops"
+},
+{
+"id": 22430,
+"en": "Sin",
+"zh": "罪恶级",
+"group_en": "Black Ops"
+},
+{
+"id": 22436,
+"en": "Widow",
+"zh": "寡妇级",
+"group_en": "Black Ops"
+},
+{
+"id": 22440,
+"en": "Panther",
+"zh": "黑豹级",
+"group_en": "Black Ops"
+},
+{
+"id": 22442,
+"en": "Eos",
+"zh": "曙光女神级",
+"group_en": "Command Ship"
+},
+{
+"id": 22444,
+"en": "Sleipnir",
+"zh": "斯雷普尼级",
+"group_en": "Command Ship"
+},
+{
+"id": 22446,
+"en": "Vulture",
+"zh": "兀鹫级",
+"group_en": "Command Ship"
+},
+{
+"id": 22448,
+"en": "Absolution",
+"zh": "救赎级",
+"group_en": "Command Ship"
+},
+{
+"id": 22452,
+"en": "Heretic",
+"zh": "异端级",
+"group_en": "Interdictor"
+},
+{
+"id": 22456,
+"en": "Sabre",
+"zh": "剑齿虎级",
+"group_en": "Interdictor"
+},
+{
+"id": 22460,
+"en": "Eris",
+"zh": "厄里斯级",
+"group_en": "Interdictor"
+},
+{
+"id": 22464,
+"en": "Flycatcher",
+"zh": "飞燕级",
+"group_en": "Interdictor"
+},
+{
+"id": 22466,
+"en": "Astarte",
+"zh": "阿施塔特级",
+"group_en": "Command Ship"
+},
+{
+"id": 22468,
+"en": "Claymore",
+"zh": "月刃级",
+"group_en": "Command Ship"
+},
+{
+"id": 22470,
+"en": "Nighthawk",
+"zh": "夜鹰级",
+"group_en": "Command Ship"
+},
+{
+"id": 22474,
+"en": "Damnation",
+"zh": "永灭级",
+"group_en": "Command Ship"
+},
+{
+"id": 22544,
+"en": "Hulk",
+"zh": "霍克级",
+"group_en": "Exhumer"
+},
+{
+"id": 22546,
+"en": "Skiff",
+"zh": "轻舟级",
+"group_en": "Exhumer"
+},
+{
+"id": 22548,
+"en": "Mackinaw",
+"zh": "麦基诺级",
+"group_en": "Exhumer"
+},
+{
+"id": 22852,
+"en": "Hel",
+"zh": "冥府级",
+"group_en": "Supercarrier"
+},
+{
+"id": 23757,
+"en": "Archon",
+"zh": "执政官级",
+"group_en": "Carrier"
+},
+{
+"id": 23773,
+"en": "Ragnarok",
+"zh": "拉格纳洛克级",
+"group_en": "Titan"
+},
+{
+"id": 23911,
+"en": "Thanatos",
+"zh": "绝念级",
+"group_en": "Carrier"
+},
+{
+"id": 23913,
+"en": "Nyx",
+"zh": "夜神级",
+"group_en": "Supercarrier"
+},
+{
+"id": 23915,
+"en": "Chimera",
+"zh": "奇美拉级",
+"group_en": "Carrier"
+},
+{
+"id": 23917,
+"en": "Wyvern",
+"zh": "飞龙级",
+"group_en": "Supercarrier"
+},
+{
+"id": 23919,
+"en": "Aeon",
+"zh": "万古级",
+"group_en": "Supercarrier"
+},
+{
+"id": 24483,
+"en": "Nidhoggur",
+"zh": "尼铎格尔级",
+"group_en": "Carrier"
+},
+{
+"id": 24688,
+"en": "Rokh",
+"zh": "鹏鲲级",
+"group_en": "Battleship"
+},
+{
+"id": 24690,
+"en": "Hyperion",
+"zh": "亥伯龙神级",
+"group_en": "Battleship"
+},
+{
+"id": 24692,
+"en": "Abaddon",
+"zh": "地狱天使级",
+"group_en": "Battleship"
+},
+{
+"id": 24694,
+"en": "Maelstrom",
+"zh": "死亡漩涡级",
+"group_en": "Battleship"
+},
+{
+"id": 24696,
+"en": "Harbinger",
+"zh": "先驱者级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 24698,
+"en": "Drake",
+"zh": "幼龙级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 24700,
+"en": "Myrmidon",
+"zh": "弥洱米顿级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 24702,
+"en": "Hurricane",
+"zh": "暴风级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 26840,
+"en": "Raven State Issue",
+"zh": "乌鸦级政府型",
+"group_en": "Battleship"
+},
+{
+"id": 26842,
+"en": "Tempest Tribal Issue",
+"zh": "狂暴级部族型",
+"group_en": "Battleship"
+},
+{
+"id": 28352,
+"en": "Rorqual",
+"zh": "长须鲸级",
+"group_en": "Capital Industrial Ship"
+},
+{
+"id": 28606,
+"en": "Orca",
+"zh": "逆戟鲸级",
+"group_en": "Industrial Command Ship"
+},
+{
+"id": 28659,
+"en": "Paladin",
+"zh": "帕拉丁级",
+"group_en": "Marauder"
+},
+{
+"id": 28661,
+"en": "Kronos",
+"zh": "克洛诺斯级",
+"group_en": "Marauder"
+},
+{
+"id": 28665,
+"en": "Vargur",
+"zh": "恶狼级",
+"group_en": "Marauder"
+},
+{
+"id": 28710,
+"en": "Golem",
+"zh": "魔像级",
+"group_en": "Marauder"
+},
+{
+"id": 28844,
+"en": "Rhea",
+"zh": "奥鸟级",
+"group_en": "Jump Freighter"
+},
+{
+"id": 28846,
+"en": "Nomad",
+"zh": "游牧者级",
+"group_en": "Jump Freighter"
+},
+{
+"id": 28848,
+"en": "Anshar",
+"zh": "安莎尔级",
+"group_en": "Jump Freighter"
+},
+{
+"id": 28850,
+"en": "Ark",
+"zh": "方舟级",
+"group_en": "Jump Freighter"
+},
+{
+"id": 29248,
+"en": "Magnate",
+"zh": "富豪级",
+"group_en": "Frigate"
+},
+{
+"id": 29266,
+"en": "Apotheosis",
+"zh": "神圣穿梭机",
+"group_en": "Shuttle"
+},
+{
+"id": 29336,
+"en": "Scythe Fleet Issue",
+"zh": "镰刀级舰队型",
+"group_en": "Cruiser"
+},
+{
+"id": 29337,
+"en": "Augoror Navy Issue",
+"zh": "奥格诺级海军型",
+"group_en": "Cruiser"
+},
+{
+"id": 29340,
+"en": "Osprey Navy Issue",
+"zh": "鱼鹰级海军型",
+"group_en": "Cruiser"
+},
+{
+"id": 29344,
+"en": "Exequror Navy Issue",
+"zh": "送葬者级海军型",
+"group_en": "Cruiser"
+},
+{
+"id": 29984,
+"en": "Tengu",
+"zh": "金鹏级",
+"group_en": "Strategic Cruiser"
+},
+{
+"id": 29986,
+"en": "Legion",
+"zh": "圣卒级",
+"group_en": "Strategic Cruiser"
+},
+{
+"id": 29988,
+"en": "Proteus",
+"zh": "海神级",
+"group_en": "Strategic Cruiser"
+},
+{
+"id": 29990,
+"en": "Loki",
+"zh": "洛基级",
+"group_en": "Strategic Cruiser"
+},
+{
+"id": 30842,
+"en": "InterBus Shuttle",
+"zh": "星际捷运穿梭机",
+"group_en": "Shuttle"
+},
+{
+"id": 32207,
+"en": "Freki",
+"zh": "暴狼级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 32209,
+"en": "Mimir",
+"zh": "弥米尔级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 32305,
+"en": "Armageddon Navy Issue",
+"zh": "末日沙场级海军型",
+"group_en": "Battleship"
+},
+{
+"id": 32307,
+"en": "Dominix Navy Issue",
+"zh": "多米尼克斯级海军型",
+"group_en": "Battleship"
+},
+{
+"id": 32309,
+"en": "Scorpion Navy Issue",
+"zh": "毒蝎级海军型",
+"group_en": "Battleship"
+},
+{
+"id": 32311,
+"en": "Typhoon Fleet Issue",
+"zh": "台风级舰队型",
+"group_en": "Battleship"
+},
+{
+"id": 32788,
+"en": "Cambion",
+"zh": "魔裔级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 32790,
+"en": "Etana",
+"zh": "伊塔那级",
+"group_en": "Logistics"
+},
+{
+"id": 32811,
+"en": "Miasmos Amastris Edition",
+"zh": "米亚莫斯级阿玛斯翠丝版",
+"group_en": "Hauler"
+},
+{
+"id": 32872,
+"en": "Algos",
+"zh": "阿尔格斯级",
+"group_en": "Destroyer"
+},
+{
+"id": 32874,
+"en": "Dragoon",
+"zh": "龙骑兵级",
+"group_en": "Destroyer"
+},
+{
+"id": 32876,
+"en": "Corax",
+"zh": "渡鸦级",
+"group_en": "Destroyer"
+},
+{
+"id": 32878,
+"en": "Talwar",
+"zh": "弯刀级",
+"group_en": "Destroyer"
+},
+{
+"id": 32880,
+"en": "Venture",
+"zh": "冲锋者级",
+"group_en": "Frigate"
+},
+{
+"id": 33079,
+"en": "Hematos",
+"zh": "未来人类级",
+"group_en": "Corvette"
+},
+{
+"id": 33081,
+"en": "Taipan",
+"zh": "毒蛇级",
+"group_en": "Corvette"
+},
+{
+"id": 33083,
+"en": "Violator",
+"zh": "违逆者级",
+"group_en": "Corvette"
+},
+{
+"id": 33151,
+"en": "Brutix Navy Issue",
+"zh": "布鲁提克斯级海军型",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 33153,
+"en": "Drake Navy Issue",
+"zh": "幼龙级海军型",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 33155,
+"en": "Harbinger Navy Issue",
+"zh": "先驱者级海军型",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 33157,
+"en": "Hurricane Fleet Issue",
+"zh": "暴风级舰队型",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 33328,
+"en": "Capsule - Genolution 'Auroral' 197-variant",
+"zh": "太空舱 - 格鲁汀 曙光 197-衍生型",
+"group_en": "Capsule"
+},
+{
+"id": 33395,
+"en": "Moracha",
+"zh": "莫拉查级",
+"group_en": "Force Recon Ship"
+},
+{
+"id": 33397,
+"en": "Chremoas",
+"zh": "克雷默斯级",
+"group_en": "Covert Ops"
+},
+{
+"id": 33468,
+"en": "Astero",
+"zh": "阿斯特罗级",
+"group_en": "Frigate"
+},
+{
+"id": 33470,
+"en": "Stratios",
+"zh": "斯特修斯级",
+"group_en": "Cruiser"
+},
+{
+"id": 33472,
+"en": "Nestor",
+"zh": "涅斯托级",
+"group_en": "Battleship"
+},
+{
+"id": 33513,
+"en": "Leopard",
+"zh": "美洲豹级",
+"group_en": "Shuttle"
+},
+{
+"id": 33553,
+"en": "Stratios Emergency Responder",
+"zh": "斯特修斯级应急反应型",
+"group_en": "Cruiser"
+},
+{
+"id": 33673,
+"en": "Whiptail",
+"zh": "长尾蜥级",
+"group_en": "Interceptor"
+},
+{
+"id": 33675,
+"en": "Chameleon",
+"zh": "变色龙级",
+"group_en": "Force Recon Ship"
+},
+{
+"id": 33697,
+"en": "Prospect",
+"zh": "掘金者级",
+"group_en": "Expedition Frigate"
+},
+{
+"id": 33816,
+"en": "Garmur",
+"zh": "加姆级",
+"group_en": "Frigate"
+},
+{
+"id": 33818,
+"en": "Orthrus",
+"zh": "奥苏斯级",
+"group_en": "Cruiser"
+},
+{
+"id": 33820,
+"en": "Barghest",
+"zh": "巴盖斯级",
+"group_en": "Battleship"
+},
+{
+"id": 34317,
+"en": "Confessor",
+"zh": "忏悔者级",
+"group_en": "Tactical Destroyer"
+},
+{
+"id": 34328,
+"en": "Bowhead",
+"zh": "弓头鲸级",
+"group_en": "Freighter"
+},
+{
+"id": 34496,
+"en": "Council Diplomatic Shuttle",
+"zh": "议会外交穿梭机",
+"group_en": "Shuttle"
+},
+{
+"id": 34562,
+"en": "Svipul",
+"zh": "斯威普级",
+"group_en": "Tactical Destroyer"
+},
+{
+"id": 34590,
+"en": "Victorieux Luxury Yacht",
+"zh": "凯旋奢华游艇",
+"group_en": "Special Edition Yachts"
+},
+{
+"id": 34828,
+"en": "Jackdaw",
+"zh": "寒鸦级",
+"group_en": "Tactical Destroyer"
+},
+{
+"id": 35683,
+"en": "Hecate",
+"zh": "赫卡特级",
+"group_en": "Tactical Destroyer"
+},
+{
+"id": 35779,
+"en": "Imp",
+"zh": "小鬼级",
+"group_en": "Interceptor"
+},
+{
+"id": 35781,
+"en": "Fiend",
+"zh": "恶魔级",
+"group_en": "Heavy Interdiction Cruiser"
+},
+{
+"id": 37135,
+"en": "Endurance",
+"zh": "永恒者级",
+"group_en": "Expedition Frigate"
+},
+{
+"id": 37453,
+"en": "Crucifier Navy Issue",
+"zh": "磨难级海军型",
+"group_en": "Frigate"
+},
+{
+"id": 37454,
+"en": "Vigil Fleet Issue",
+"zh": "守夜者级舰队型",
+"group_en": "Frigate"
+},
+{
+"id": 37455,
+"en": "Griffin Navy Issue",
+"zh": "狮鹫级海军型",
+"group_en": "Frigate"
+},
+{
+"id": 37456,
+"en": "Maulus Navy Issue",
+"zh": "毛鲁斯级海军型",
+"group_en": "Frigate"
+},
+{
+"id": 37457,
+"en": "Deacon",
+"zh": "执事级",
+"group_en": "Logistics Frigate"
+},
+{
+"id": 37458,
+"en": "Kirin",
+"zh": "麒麟级",
+"group_en": "Logistics Frigate"
+},
+{
+"id": 37459,
+"en": "Thalia",
+"zh": "塔利亚级",
+"group_en": "Logistics Frigate"
+},
+{
+"id": 37460,
+"en": "Scalpel",
+"zh": "手术刀级",
+"group_en": "Logistics Frigate"
+},
+{
+"id": 37480,
+"en": "Bifrost",
+"zh": "天梯级",
+"group_en": "Command Destroyer"
+},
+{
+"id": 37481,
+"en": "Pontifex",
+"zh": "教皇级",
+"group_en": "Command Destroyer"
+},
+{
+"id": 37482,
+"en": "Stork",
+"zh": "鹳鸟级",
+"group_en": "Command Destroyer"
+},
+{
+"id": 37483,
+"en": "Magus",
+"zh": "占星级",
+"group_en": "Command Destroyer"
+},
+{
+"id": 37604,
+"en": "Apostle",
+"zh": "使徒级",
+"group_en": "Force Auxiliary"
+},
+{
+"id": 37605,
+"en": "Minokawa",
+"zh": "龙鸟级",
+"group_en": "Force Auxiliary"
+},
+{
+"id": 37606,
+"en": "Lif",
+"zh": "利夫级",
+"group_en": "Force Auxiliary"
+},
+{
+"id": 37607,
+"en": "Ninazu",
+"zh": "尼纳苏级",
+"group_en": "Force Auxiliary"
+},
+{
+"id": 42124,
+"en": "Vehement",
+"zh": "猛烈级",
+"group_en": "Dreadnought"
+},
+{
+"id": 42125,
+"en": "Vendetta",
+"zh": "仇恨级",
+"group_en": "Supercarrier"
+},
+{
+"id": 42126,
+"en": "Vanquisher",
+"zh": "征服者级",
+"group_en": "Titan"
+},
+{
+"id": 42241,
+"en": "Molok",
+"zh": "摩洛克级",
+"group_en": "Titan"
+},
+{
+"id": 42242,
+"en": "Dagon",
+"zh": "大衮级",
+"group_en": "Force Auxiliary"
+},
+{
+"id": 42243,
+"en": "Chemosh",
+"zh": "基抹级",
+"group_en": "Dreadnought"
+},
+{
+"id": 42244,
+"en": "Porpoise",
+"zh": "海豚级",
+"group_en": "Industrial Command Ship"
+},
+{
+"id": 42245,
+"en": "Rabisu",
+"zh": "拉比苏级",
+"group_en": "Logistics"
+},
+{
+"id": 42246,
+"en": "Caedes",
+"zh": "凯帝斯级",
+"group_en": "Covert Ops"
+},
+{
+"id": 42685,
+"en": "Sunesis",
+"zh": "旭日级",
+"group_en": "Destroyer"
+},
+{
+"id": 44993,
+"en": "Pacifier",
+"zh": "安抚者",
+"group_en": "Covert Ops"
+},
+{
+"id": 44995,
+"en": "Enforcer",
+"zh": "执法者级",
+"group_en": "Force Recon Ship"
+},
+{
+"id": 44996,
+"en": "Marshal",
+"zh": "元帅级",
+"group_en": "Black Ops"
+},
+{
+"id": 45530,
+"en": "Virtuoso",
+"zh": "收藏家级",
+"group_en": "Stealth Bomber"
+},
+{
+"id": 45531,
+"en": "Victor",
+"zh": "胜利者级",
+"group_en": "Force Recon Ship"
+},
+{
+"id": 45534,
+"en": "Monitor",
+"zh": "监视者级",
+"group_en": "Flag Cruiser"
+},
+{
+"id": 45645,
+"en": "Loggerhead",
+"zh": "赤龟级",
+"group_en": "Force Auxiliary"
+},
+{
+"id": 45647,
+"en": "Caiman",
+"zh": "凯门鳄级",
+"group_en": "Dreadnought"
+},
+{
+"id": 45649,
+"en": "Komodo",
+"zh": "科莫多级",
+"group_en": "Titan"
+},
+{
+"id": 47269,
+"en": "Damavik",
+"zh": "达玛维克级",
+"group_en": "Frigate"
+},
+{
+"id": 47270,
+"en": "Vedmak",
+"zh": "维德马克级",
+"group_en": "Cruiser"
+},
+{
+"id": 47271,
+"en": "Leshak",
+"zh": "勒沙克级",
+"group_en": "Battleship"
+},
+{
+"id": 47466,
+"en": "Praxis",
+"zh": "实践级",
+"group_en": "Battleship"
+},
+{
+"id": 48635,
+"en": "Tiamat",
+"zh": "提亚玛特级",
+"group_en": "Force Recon Ship"
+},
+{
+"id": 48636,
+"en": "Hydra",
+"zh": "九头蛇级",
+"group_en": "Covert Ops"
+},
+{
+"id": 49710,
+"en": "Kikimora",
+"zh": "奇奇莫拉级",
+"group_en": "Destroyer"
+},
+{
+"id": 49711,
+"en": "Drekavac",
+"zh": "德雷卡瓦级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 49712,
+"en": "Rodiva",
+"zh": "洛迪瓦级",
+"group_en": "Cruiser"
+},
+{
+"id": 49713,
+"en": "Zarmazd",
+"zh": "扎玛德级",
+"group_en": "Logistics"
+},
+{
+"id": 52250,
+"en": "Nergal",
+"zh": "涅伽尔级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 52252,
+"en": "Ikitursa",
+"zh": "伊基图萨级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 52254,
+"en": "Draugur",
+"zh": "德拉古级",
+"group_en": "Command Destroyer"
+},
+{
+"id": 52907,
+"en": "Zirnitra",
+"zh": "泽尼塔级",
+"group_en": "Dreadnought"
+},
+{
+"id": 54731,
+"en": "Skybreaker",
+"zh": "破天级",
+"group_en": "Frigate"
+},
+{
+"id": 54732,
+"en": "Stormbringer",
+"zh": "唤风级",
+"group_en": "Cruiser"
+},
+{
+"id": 54733,
+"en": "Thunderchild",
+"zh": "雷裔级",
+"group_en": "Battleship"
+},
+{
+"id": 60764,
+"en": "Laelaps",
+"zh": "猎獒级",
+"group_en": "Heavy Interdiction Cruiser"
+},
+{
+"id": 60765,
+"en": "Raiju",
+"zh": "雷兽级",
+"group_en": "Electronic Attack Ship"
+},
+{
+"id": 64034,
+"en": "Boobook",
+"zh": "鹰鸮级",
+"group_en": "Shuttle"
+},
+{
+"id": 72811,
+"en": "Cyclone Fleet Issue",
+"zh": "飓风级舰队型",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 72812,
+"en": "Ferox Navy Issue",
+"zh": "猛鲑级海军型",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 72869,
+"en": "Myrmidon Navy Issue",
+"zh": "弥洱米顿级海军型",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 72872,
+"en": "Prophecy Navy Issue",
+"zh": "先知级海军型",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 72903,
+"en": "Probe Fleet Issue",
+"zh": "探索级舰队型",
+"group_en": "Frigate"
+},
+{
+"id": 72904,
+"en": "Heron Navy Issue",
+"zh": "苍鹭级海军型",
+"group_en": "Frigate"
+},
+{
+"id": 72907,
+"en": "Magnate Navy Issue",
+"zh": "富豪级海军型",
+"group_en": "Frigate"
+},
+{
+"id": 72913,
+"en": "Imicus Navy Issue",
+"zh": "伊米卡斯级海军型",
+"group_en": "Frigate"
+},
+{
+"id": 73787,
+"en": "Naglfar Fleet Issue",
+"zh": "纳迦法级舰队型",
+"group_en": "Dreadnought"
+},
+{
+"id": 73789,
+"en": "Coercer Navy Issue",
+"zh": "强制者级海军型",
+"group_en": "Destroyer"
+},
+{
+"id": 73790,
+"en": "Revelation Navy Issue",
+"zh": "神示级海军型",
+"group_en": "Dreadnought"
+},
+{
+"id": 73792,
+"en": "Moros Navy Issue",
+"zh": "莫洛级海军型",
+"group_en": "Dreadnought"
+},
+{
+"id": 73793,
+"en": "Phoenix Navy Issue",
+"zh": "凤凰级海军型",
+"group_en": "Dreadnought"
+},
+{
+"id": 73794,
+"en": "Thrasher Fleet Issue",
+"zh": "长尾鲛级舰队型",
+"group_en": "Destroyer"
+},
+{
+"id": 73795,
+"en": "Cormorant Navy Issue",
+"zh": "海燕级海军型",
+"group_en": "Destroyer"
+},
+{
+"id": 73796,
+"en": "Catalyst Navy Issue",
+"zh": "促进级海军型",
+"group_en": "Destroyer"
+},
+{
+"id": 74141,
+"en": "Geri",
+"zh": "格里级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 74316,
+"en": "Bestla",
+"zh": "贝斯特拉",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 77114,
+"en": "Metamorphosis",
+"zh": "变形级",
+"group_en": "Frigate"
+},
+{
+"id": 77281,
+"en": "Hubris",
+"zh": "狂徒",
+"group_en": "Lancer Dreadnought"
+},
+{
+"id": 77283,
+"en": "Bane",
+"zh": "破坏者",
+"group_en": "Lancer Dreadnought"
+},
+{
+"id": 77284,
+"en": "Karura",
+"zh": "迦楼罗",
+"group_en": "Lancer Dreadnought"
+},
+{
+"id": 77288,
+"en": "Valravn",
+"zh": "血鸦",
+"group_en": "Lancer Dreadnought"
+},
+{
+"id": 77726,
+"en": "Cybele",
+"zh": "西布勒级",
+"group_en": "Heavy Assault Cruiser"
+},
+{
+"id": 78333,
+"en": "Mekubal",
+"zh": "梅库巴尔级",
+"group_en": "Destroyer"
+},
+{
+"id": 78366,
+"en": "Alligator",
+"zh": "短吻鳄级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 78367,
+"en": "Mamba",
+"zh": "曼巴级",
+"group_en": "Destroyer"
+},
+{
+"id": 78369,
+"en": "Khizriel",
+"zh": "希兹里尔级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 78414,
+"en": "Shapash",
+"zh": "沙帕什级",
+"group_en": "Assault Frigate"
+},
+{
+"id": 78576,
+"en": "Azariel",
+"zh": "阿扎里尔级",
+"group_en": "Titan"
+},
+{
+"id": 81008,
+"en": "Squall",
+"zh": "狂风级",
+"group_en": "Hauler"
+},
+{
+"id": 81040,
+"en": "Avalanche",
+"zh": "雪崩级",
+"group_en": "Freighter"
+},
+{
+"id": 81046,
+"en": "Deluge",
+"zh": "洪水级",
+"group_en": "Blockade Runner"
+},
+{
+"id": 81047,
+"en": "Torrent",
+"zh": "湍流级",
+"group_en": "Deep Space Transport"
+},
+{
+"id": 85062,
+"en": "Sidewinder",
+"zh": "侧进蛇级",
+"group_en": "Covert Ops"
+},
+{
+"id": 85086,
+"en": "Cenotaph",
+"zh": "纪念碑级",
+"group_en": "Combat Battlecruiser"
+},
+{
+"id": 85087,
+"en": "Tholos",
+"zh": "穹顶级",
+"group_en": "Destroyer"
+},
+{
+"id": 85229,
+"en": "Cobra",
+"zh": "眼镜蛇级",
+"group_en": "Force Recon Ship"
+},
+{
+"id": 85236,
+"en": "Python",
+"zh": "巨蟒级",
+"group_en": "Black Ops"
+},
+{
+"id": 87381,
+"en": "Sarathiel",
+"zh": "萨拉希尔",
+"group_en": "Dreadnought"
+},
+{
+"id": 88001,
+"en": "Babaroga",
+"zh": "巴巴罗加号",
+"group_en": "Marauder"
+},
+{
+"id": 89240,
+"en": "Pioneer",
+"zh": "开拓者级",
+"group_en": "Destroyer"
+},
+{
+"id": 89607,
+"en": "Odysseus",
+"zh": "奥德修斯级",
+"group_en": "Expedition Command Ship"
+},
+{
+"id": 89647,
+"en": "Pioneer Consortium Issue",
+"zh": "开拓者级财团型",
+"group_en": "Destroyer"
+},
+{
+"id": 89648,
+"en": "Venture Consortium Issue",
+"zh": "冲锋者级财团型",
+"group_en": "Frigate"
+},
+{
+"id": 89649,
+"en": "Outrider",
+"zh": "先驱级",
+"group_en": "Command Destroyer"
+},
+{
+"id": 89807,
+"en": "Anhinga",
+"zh": "蛇鹈号",
+"group_en": "Attack Battlecruiser"
+},
+{
+"id": 89808,
+"en": "Skua",
+"zh": "贼鸥号",
+"group_en": "Tactical Destroyer"
+},
+{
+"id": 91174,
+"en": "Perseverance",
+"zh": "坚毅者级",
+"group_en": "Destroyer"
+},
+{
+"id": 91775,
+"en": "Dragoon Navy Issue",
+"zh": "龙骑兵级海军型",
+"group_en": "Destroyer"
+},
+{
+"id": 91849,
+"en": "Algos Navy Issue",
+"zh": "阿尔格斯级海军型",
+"group_en": "Destroyer"
+},
+{
+"id": 91857,
+"en": "Corax Navy Issue",
+"zh": "渡鸦级海军型",
+"group_en": "Destroyer"
+},
+{
+"id": 91858,
+"en": "Talwar Fleet Issue",
+"zh": "弯刀级舰队型",
+"group_en": "Destroyer"
+},
+{
+"id": 92282,
+"en": "Tenzin YC128 Campaign Bus",
+"zh": "YC128年丹增竞选巴士",
+"group_en": "Special Edition Yachts"
+},
+{
+"id": 92283,
+"en": "Moreau YC128 Campaign Bus",
+"zh": "YC128年莫罗竞选巴士",
+"group_en": "Special Edition Yachts"
+},
+{
+"id": 92284,
+"en": "Roden YC128 Campaign Bus",
+"zh": "YC128年莱登竞选巴士",
+"group_en": "Special Edition Yachts"
+},
+{
+"id": 92822,
+"en": "Salvation",
+"zh": "救赎级",
+"group_en": "Command Carrier"
+},
+{
+"id": 92823,
+"en": "Simurgh",
+"zh": "西莫夫级",
+"group_en": "Command Carrier"
+},
+{
+"id": 92824,
+"en": "Gaia",
+"zh": "盖亚级",
+"group_en": "Command Carrier"
+},
+{
+"id": 92825,
+"en": "Ymir",
+"zh": "伊米尔级",
+"group_en": "Command Carrier"
+}
+]

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+# Downloaded at first run / via "Update glossary" from the community sheet (not ours to redistribute)
+data/glossary_sheet.csv
