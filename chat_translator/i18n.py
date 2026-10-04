@@ -28,6 +28,9 @@ STRINGS = {
         "show_original": "Show original text under translation",
         "translate_all": "Translate every line (even ones already in English)",
         "show_outline": "Show region outline",
+        "hide_from_capture": "Hide panel from screenshots and recordings",
+        "hide_from_capture_tip": "Lets the panel sit on top of the chat while the text underneath is still read. "
+                                 "Off: the panel shows in screenshots, and any chat it covers is skipped.",
         "region_none": "Region: none — click “Select region…”",
         "region": "Region: {w}×{h} at ({x}, {y})",
         "select_hint": "Drag a box around the chat.  Esc to cancel.",
@@ -71,6 +74,9 @@ STRINGS = {
         "show_original": "在译文下方显示原文",
         "translate_all": "翻译所有行（包括已是中文的行）",
         "show_outline": "显示区域边框",
+        "hide_from_capture": "在截图和录屏中隐藏面板",
+        "hide_from_capture_tip": "开启后，面板可以覆盖在聊天窗口上，下面的文字仍能被识别。"
+                                 "关闭时，截图中可以看到面板，被面板挡住的聊天内容会被跳过。",
         "region_none": "区域：未选择 — 请点击“选择区域…”",
         "region": "区域：{w}×{h}，位置 ({x}, {y})",
         "select_hint": "拖动鼠标框选聊天窗口。按 Esc 取消。",

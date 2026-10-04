@@ -53,8 +53,10 @@ the watched area. Click **Pause** / **Start** any time, or **Select region…** 
 ### 3. Read the translations
 
 New messages appear in the translation panel ②, translation first with the original in grey underneath.
-Drag the panel by its top bar and resize it from the bottom-right corner. It can safely sit on top of
-the chat, because the app never reads its own panel.
+Drag the panel by its top bar and resize it from the bottom-right corner. The app never reads its own
+panel: any chat the panel covers is skipped. To put the panel on top of the chat and still have the chat
+underneath read, tick **Hide panel from screenshots and recordings**. The panel then won't appear in
+screenshots, recordings or streams.
 
 ### 4. Reply
 

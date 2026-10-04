@@ -16,15 +16,29 @@ from .i18n import LANGUAGES, tr
 from .translate import BACKENDS
 from .worker import Worker
 
+WDA_NONE = 0x00
 WDA_EXCLUDEFROMCAPTURE = 0x11
 
 
-def exclude_from_capture(widget: QWidget) -> None:
-    """Hide our own windows from screen capture so translations overlapping the region aren't re-OCR'd."""
+def set_capture_hidden(widget: QWidget, hidden: bool) -> None:
+    """Hide/show one of our windows in ALL screen capture (screenshots, recording, streaming, and our own OCR)."""
     try:
-        ctypes.windll.user32.SetWindowDisplayAffinity(int(widget.winId()), WDA_EXCLUDEFROMCAPTURE)
+        ctypes.windll.user32.SetWindowDisplayAffinity(
+            int(widget.winId()), WDA_EXCLUDEFROMCAPTURE if hidden else WDA_NONE)
     except (AttributeError, OSError):
         pass
+
+
+def mask_rect(frame: np.ndarray, region: QRect, cover: QRect) -> None:
+    """Black out the part of a captured region that `cover` (one of our windows) sits on,
+    so our own translations are never OCR'd back in."""
+    overlap = region.intersected(cover)
+    if overlap.isEmpty():
+        return
+    sx, sy = frame.shape[1] / region.width(), frame.shape[0] / region.height()  # logical -> pixels
+    x0, y0 = int((overlap.left() - region.left()) * sx), int((overlap.top() - region.top()) * sy)
+    x1, y1 = int((overlap.right() + 1 - region.left()) * sx), int((overlap.bottom() + 1 - region.top()) * sy)
+    frame[y0:y1, x0:x1] = 0
 
 
 def grab_region(rect: QRect) -> np.ndarray | None:
@@ -111,11 +125,6 @@ class RegionOutline(QWidget):
         p = QPainter(self)
         p.setPen(QPen(QColor(0, 200, 255, 180), 2, Qt.PenStyle.DashLine))
         p.drawRect(self.rect().adjusted(1, 1, -2, -2))
-
-    def showEvent(self, e):
-        super().showEvent(e)
-        exclude_from_capture(self)
-
 
 class FeedPanel(QWidget):
     """Always-on-top translucent panel listing translated messages, with a reply box at the bottom."""
@@ -233,7 +242,7 @@ class FeedPanel(QWidget):
 
     def showEvent(self, e):
         super().showEvent(e)
-        exclude_from_capture(self)
+        set_capture_hidden(self, bool(self.cfg["hide_from_capture"]))
 
 
 class ControlWindow(QWidget):
@@ -337,6 +346,9 @@ class ControlWindow(QWidget):
         self.show_outline = QCheckBox()
         self.show_outline.setChecked(self.cfg["show_outline"])
         self.show_outline.toggled.connect(self.on_settings)
+        self.hide_from_capture = QCheckBox()
+        self.hide_from_capture.setChecked(self.cfg["hide_from_capture"])
+        self.hide_from_capture.toggled.connect(self.on_settings)
 
         self.form = QFormLayout()
         self.form_rows = {}  # i18n key -> (label, field)
@@ -358,7 +370,7 @@ class ControlWindow(QWidget):
         lay.addLayout(buttons)
         lay.addWidget(self.region_label)
         lay.addLayout(self.form)
-        for w in (self.show_original, self.translate_all, self.show_outline, self.status):
+        for w in (self.show_original, self.translate_all, self.show_outline, self.hide_from_capture, self.status):
             lay.addWidget(w)
         self.retranslate()
         self.set_status(self.t("starting"))
@@ -382,6 +394,8 @@ class ControlWindow(QWidget):
         self.show_original.setText(self.t("show_original"))
         self.translate_all.setText(self.t("translate_all"))
         self.show_outline.setText(self.t("show_outline"))
+        self.hide_from_capture.setText(self.t("hide_from_capture"))
+        self.hide_from_capture.setToolTip(self.t("hide_from_capture_tip"))
         self.update_region_label()
         self.panel.retranslate()
 
@@ -407,6 +421,8 @@ class ControlWindow(QWidget):
         self.cfg["show_original"] = self.show_original.isChecked()
         self.cfg["translate_all"] = self.translate_all.isChecked()
         self.cfg["show_outline"] = self.show_outline.isChecked()
+        self.cfg["hide_from_capture"] = self.hide_from_capture.isChecked()
+        set_capture_hidden(self.panel, self.cfg["hide_from_capture"])
         self.timer.setInterval(self.cfg["interval_ms"])
         self.panel.apply_style()
         self.update_outline()
@@ -479,6 +495,8 @@ class ControlWindow(QWidget):
     def tick(self):
         if self.region:
             frame = grab_region(self.region)
+            if frame is not None and not self.cfg["hide_from_capture"] and self.panel.isVisible():
+                mask_rect(frame, self.region, self.panel.frameGeometry())
             if frame is not None:
                 self.worker.submit(frame)
 

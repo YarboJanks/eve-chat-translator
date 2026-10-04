@@ -17,6 +17,7 @@ DEFAULTS = {
     "translate_all": False,  # False: only lines mostly in the other language
     "show_original": True,
     "show_outline": True,
+    "hide_from_capture": False,  # True: panel invisible to screenshots/recording (and to our OCR)
     "font_size": 14,
     "opacity": 0.8,
     "ocr_min_score": 0.6,
